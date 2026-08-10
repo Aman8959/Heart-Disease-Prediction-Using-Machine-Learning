@@ -197,14 +197,37 @@ Therefore, model selection depends on the objective:
 - Scikit-learn
 - Jupyter Notebook
 
+## 📸 Output Screenshots
+
+### 1. Exploratory Data Analysis
+
+![Exploratory Data Analysis](screenshots/univariate-continuous.png)
+
+![Categorical Data Analysis](screenshots/univariate-categorical.png)
+
+![Bivariate Analysis](screenshots/bivariate-continuous.png)
+
+![Bivariate Categorical Analysis](screenshots/bivariate-categorical.png)
+
+### 2. Model Performance Comparison
+
+![Model Performance Comparison](screenshots/model-recall-comparison.png)
+
 ## 📁 Project Structure
 
 ```text
 heart-disease-prediction/
 │
-├── heart-disease-prediction-modern.ipynb
+├── README.md
 ├── heart.csv
-└── README.md
+├── heart-disease-prediction-modern.ipynb
+│
+└── screenshots/
+    ├── univariate.png
+    ├── univariate_categorical.png
+    ├── baivariate.png
+    ├── baivariate_categorical.png
+    ├── evolution matrics.png
 ```
 
 ## 🚀 How to Run
